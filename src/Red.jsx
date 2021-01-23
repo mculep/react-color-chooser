@@ -1,10 +1,10 @@
 import React from 'react';
 import ColorBtn from './ColorBtn'
 
-function colorRed(props) {
+function colorRed() {
     return (
     <div className="Red">
-    <ColorBtn color='red' text='Red' />
+        <ColorBtn color='red' text='Red' />
     </div>
     );
 }

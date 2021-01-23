@@ -4,8 +4,8 @@ const ColorBtn = ({ color, text }) => {
     const onClick = () => {
         console.log({ color })
     }
-    return <button onClick={onClick} style={{ backgroundColor: color }} className="colorbtn">{text}</button>
-
+    return <button onClick={onClick}
+        style={{ backgroundColor: color }} className="colorbtn">{text}</button>
 
 }
 

@@ -5,10 +5,8 @@ import Blue from './Blue'
 import Header from './Header'
 import { useState } from 'react'
 
-
 function App() {
   // const [colors, setColors] = useState("");
-
 
   return (
     <div className="App">
